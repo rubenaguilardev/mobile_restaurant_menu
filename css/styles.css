@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Smythe&display=swap');
+
+body {
+    max-width: 600px;
+    border: 1px dotted black;
+    font-family: 'Smythe', sans-serif;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-top: 39px;
+    padding-bottom: 58px;
+    padding-left: 46px;
+    gap: 9px;
+    color: #fff; 
+    background-image: url('../images/bg_img.png');
+}
+
+h1 {
+    font-size: 2.4375rem;
+}
+
+h2 {
+    font-size: 1.4rem;
+}
