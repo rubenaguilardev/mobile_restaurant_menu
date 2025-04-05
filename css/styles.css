@@ -19,6 +19,7 @@ header {
     gap: 9px;
     color: #fff; 
     background-image: url('../images/bg_img.png');
+    margin-bottom: 67px;
 }
 
 h1 {
@@ -32,7 +33,7 @@ h2 {
 section {
     display: flex;
     justify-content: space-between;
-    margin: 46px 46px 0 46px;
+    margin: 45px 46px 0 46px;
     padding-bottom: 52px;
     border-bottom: 1px solid #D2D2D2;
 }
@@ -61,5 +62,5 @@ section span {
 }
 
 .add-button {
-    margin: 0 auto;
+    margin: 5px auto 0 auto;
 }
