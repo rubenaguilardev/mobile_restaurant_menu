@@ -15,7 +15,6 @@
                 <h2>The best burgers and pizzas in town.</h2>
             </header>
         </section>
-        
     
         <section id="order">
             <h3 class="order-title">Your order</h3>
@@ -26,7 +25,33 @@
              </div> 
             <button id="checkout-btn">Complete order</button>
         </section>
+
+        <section class="order-placed">
+            <div class="order-confirmation">
+                <p id="confirmation-p"></p>
+            </div>
+        </section>
+            
+        <section class="payment-popup">
+
+            <div class="close">
+                <img class="close-btn" id="close-btn" src="images/close-btn.png" alt="close button">
+                <h2>Enter card details</h2>
+            </div>
+            
+            <form class="payment-form" id="payment-form" action="#">
+                <input name="full-name" type="text" placeholder="Enter your name" aria-label="full name" required>
+                <input type="text" pattern="\d{16}" 
+                maxlength="16" 
+                inputmode="numeric" 
+                placeholder="Enter 16-digit card number" aria-label="credit card number" required>
+                <input type="text" placeholder="Enter CVV (123)" pattern="\d{3}" required >
+                <button id ="pay-btn" type="submit">Pay</button>
+            </form>
+        </section>
     </main>
+
+    
     
     
     <script src="js/index.js" type="module"></script>
