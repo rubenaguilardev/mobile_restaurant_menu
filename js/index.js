@@ -66,6 +66,7 @@ paymentForm.addEventListener('submit', checkoutOrder)
 
 
 function addItem(id) {
+    checkout.style.backgroundColor = '#16DB99'
     document.querySelector('.order-placed').style.display = 'none'
     menuArray[id].quantity++
     if (foodItems.includes(id)) {
@@ -173,6 +174,7 @@ function checkoutOrder(e) {
         document.getElementById(`item-${id}`).style.display = 'none'
     })
     newPrice = 0
+    
     
 }
 
