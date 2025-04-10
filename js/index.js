@@ -143,7 +143,7 @@ function completeOrder() {
         paymentPopup.style.display = 'block'
         main.style.backgroundImage = 'linear-gradient(gray, white)'  
     }
-   
+   checkout.style.backgroundColor = 'whitesmoke'
 }
 
 
