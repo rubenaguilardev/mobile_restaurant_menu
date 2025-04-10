@@ -108,6 +108,8 @@ function removeOnClick(id) {
 
     if (newPrice === 0) {
         document.querySelector('#order').style.display = 'none'
+        paymentPopup.style.display = 'none'
+        main.style.backgroundImage = 'none'
     }  
 }
     
